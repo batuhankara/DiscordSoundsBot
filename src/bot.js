@@ -2,9 +2,8 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const ytdl = require("ytdl-core");
 const ytsr = require("ytsr");
-let botChannel = "";
 var globalChannel;
-client.login("NzE2NjA5NTU5MTA3NzMxNTA2.XtORYQ.gKMPJTK9Mi8aah1imoo8zCZtvO8");
+client.login("NzE2NjA5NTU5MTA3NzMxNTA2.XtP11Q.MaGSZuDqwwLwoDWYP37b84Olchs");
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
